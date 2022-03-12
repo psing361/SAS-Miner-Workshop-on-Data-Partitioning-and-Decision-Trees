@@ -1,0 +1,73 @@
+*------------------------------------------------------------*
+User:                u59397413
+Date:                February 15, 2022
+Time:                08:07:51
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+ Role        Level         Count
+ 
+INPUT      BINARY             5
+INPUT      INTERVAL          14
+INPUT      NOMINAL            1
+TARGET     BINARY             1
+ 
+ 
+ 
+ 
+Partition Summary
+ 
+                                     Number of
+Type             Data Set          Observations
+ 
+DATA        EMWS1.Ids_DATA             2626
+TRAIN       EMWS1.Part_TRAIN           1574
+VALIDATE    EMWS1.Part_VALIDATE        1052
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Summary Statistics for Class Targets
+ 
+Data=DATA
+ 
+            Numeric    Formatted    Frequency
+Variable     Value       Value        Count      Percent    Label
+ 
+ Target        .           0           2292      87.2810    Target
+ Target        .           1            334      12.7190    Target
+ 
+ 
+Data=TRAIN
+ 
+            Numeric    Formatted    Frequency
+Variable     Value       Value        Count      Percent    Label
+ 
+ Target        .           0           1374      87.2935    Target
+ Target        .           1            200      12.7065    Target
+ 
+ 
+Data=VALIDATE
+ 
+            Numeric    Formatted    Frequency
+Variable     Value       Value        Count      Percent    Label
+ 
+ Target        .           0           918       87.2624    Target
+ Target        .           1           134       12.7376    Target
